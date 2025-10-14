@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bocchi the Rock! Fan Site</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="wrapper">
+  <!-- HEADER -->
+  <header>
+    <h1>Bocchi the Rock! Fan Site</h1>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="band.html">Band Members</a>
+      <a href="discography.html">Discography</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <img src="images/BocchitheRockLogo.png" alt="Kessoku Band Logo" class="hero-logo">
+    <h2>Four girls, one dream — to rock the stage!</h2>
+    <p>Welcome to the ultimate <strong>Bocchi the Rock!</strong> fan site.</p>
+    <a href="band.html" class="btn">Meet the Band</a>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about">
+    <h2>About the Series</h2>
+    <p>Bocchi the Rock is a comedy/slice of life 4-koma manga written and illustrated by <strong>Aki Hamazi</strong>. The manga was     serialized in February 2018 by MangaTime Kirara Max and currently has 7 volumes as of October 2025. In 2019 the manga received         8th place for the “Next Manga Awards” and received an anime adaption in the anime Fall season of  2022, which aired between         “October 9th to December 25th”.
+    This series has influenced others in the band genre with some works including “Girls Band Cry”  and “Rock is a Lady' s Modesty”.     The second season release date of Bocchi the Rock is still to be announced, with the latest teaser trailer that was posted             February 2025.
+    <p>
+      <img src="images/YoungBocchi.jpg" alt="YoungBocchi" height=150>
+    <p>
+    That is until one day in high school she meets Nijika Ijichi an energetic girl, who is looking for a lead guitarist for her         band after their other guitarist quit.  Bocchi seeing this chance tries to runaway, but is dragged by Nijika back to their venue.       Thus starts Bocchi’s adventures with “Kesoku Band” and the members Nijika Ijichi (Drummer), Ryo Yamada (Bassist), and Ikuyo Kita        (Vocalist/Rhythm Guitarist). Through her experiences Bocchi gradually finds confidence, friendship, and a place where she truly         belongs.
+    </p>
+    <p>
+      This fan site celebrates their journey with images, music, and profiles of each band member.
+      Explore and enjoy!
+    </p>
+  </section>
+
+  <!-- BAND PREVIEW -->
+  <section class="band-preview">
+    <h2>Meet the Band</h2>
+    <div class="member-grid">
+      <img src="images/HitoriFace.jpeg" alt="Hitor Gotoh" height = 100> <br>
+      <img src="images/NijikaFace.jpg" alt=Nijika Ijichi" height= 100><br> 
+      <img src="images/KitaFace.jpg" alt=Ikuyo Kita"> <br>
+      <img src="images/RyoFace.jpg" alt=Ryo Yamada">
+    </div>
+    <p><a href="band.html" class="link">View Character profiles →</a></p>
+  </section>
+
+  <!-- DISCOGRAPHY PREVIEW -->
+  <section class="music-preview">
+    <h2>Discography</h2>
+    <ul>
+      <li>🎵 <strong>Kessoku Band Album</strong> (2023)</li>
+      <li>🎸 <strong>Guitar, Loneliness and Blue Planet</strong> – Single</li>
+      <li>🔥 <strong>Seishun Complex</strong> – Opening Theme</li>
+    </ul>
+    <p><a href="discography.html" class="link">See full discography →</a></p>
+  </section>
+
+  <!-- GALLERY PREVIEW -->
+  <section class="gallery-preview">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <img src="images/gallery1.jpg" alt="Bocchi on stage">
+      <img src="images/gallery2.jpg" alt="Band performance">
+      <img src="images/gallery3.jpg" alt="Kessoku Band group photo">
+    </div>
+    <p><a href="gallery.html" class="link">View full gallery →</a></p>
+  </section>
+
+  <!-- CONTACT PREVIEW -->
+  <section class="contact-preview">
+    <h2>Join the Fan Community!</h2>
+    <p>Have fan art, thoughts, or questions? <a href="contact.html">Contact us here</a>!</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Bocchi the Rock! Fan Website | For educational use only</p>
+  </footer>
+
+</body>
+</html>
+
+
