@@ -1,0 +1,446 @@
+/* =======================================================
+   BASE STYLES
+   ======================================================= */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #000; /* black background for rock aesthetic */
+  color: #f2f2f2; /* light text on dark background for readability */
+  line-height: 1.6;
+}
+
+/* =======================================================
+   HEADER AND NAVIGATION STYLE
+   ======================================================= */
+header {
+  background-color: #111;
+  text-align: center;
+  padding: 1em;
+}
+
+header h1 {
+  margin: 0;
+  color: #ffb6c1; /* light pink for title */
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ffb6c1;
+  font-weight: bold;
+}
+
+nav a.active {
+  text-decoration: underline;
+}
+/* ==============================================
+   GLOBAL BACKGROUND STYLE
+   ============================================== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #f2f2f2;
+  line-height: 1.6;
+
+  /* Background Image */
+  background-image: url("images/StarryBackground.jpg");
+  background-size: cover;        /* Makes image fill screen */
+  background-repeat: no-repeat;  /* Prevents tiling */
+  background-attachment: fixed;  /* Keeps image still while scrolling */
+  background-position: center;   /* Centers image */
+}
+
+/* =======================================================
+   HOMEPAGE AND BANNER STYLE
+   ======================================================= */
+.hero {
+  text-align: center;
+  background-color: #000;
+  padding: 80px 20px;
+}
+
+.hero-logo {
+  width: 80%;
+  max-width: 600px;
+  height: auto;
+  margin-bottom: 20px;
+  animation: glow 3s infinite ease-in-out;
+}
+
+/* HERO TEXT AND BUTTON */
+.hero h2 {
+  color: #ffb6c1;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: #ddd;
+  font-size: 1.1em;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ffb6c1;
+  color: #000;
+  padding: 10px 20px;
+  margin-top: 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #ffc5d0;
+}
+
+/* =======================================================
+   SECTION STYLES
+   ======================================================= */
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  color: #ffb6c1;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* =======================================================
+   BAND PREVIEW STYLE ON HOMEPAGE
+   ======================================================= */
+.member-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+  justify-items: center;
+}
+
+.member-grid img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(255, 182, 193, 0.5);
+}
+
+/* =======================================================
+   DISCOGRAPHY PREVIEW STYLE ON HOMEPAGE
+   ======================================================= */
+.music-preview ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.music-preview li {
+  margin: 5px 0;
+  font-size: 1.1em;
+}
+
+/* =======================================================
+   GALLERY PREVIEW ON HOMEPAGE
+   ======================================================= */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 15px;
+  justify-items: center;
+}
+
+.gallery-grid img {
+  width: 100%;
+  max-width: 180px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(255, 182, 193, 0.4);
+}
+
+/* =======================================================
+   CONTACT PREVIEW ON HOMEPAGE
+   ======================================================= */
+.contact-preview {
+  text-align: center;
+  font-size: 1.1em;
+}
+
+/* =======================================================
+   FOOTER STYLES
+   ======================================================= */
+.link {
+  color: #ffb6c1;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #111;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+  color: #ffb6c1;
+}
+
+/* =======================================================
+   BAND PAGE STYLE
+   ======================================================= */
+.band-page {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.member {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #111;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(255, 182, 193, 0.2);
+}
+
+.member img {
+  width: 220px;
+  border-radius: 10px;
+  margin-right: 20px;
+  box-shadow: 0 0 10px rgba(255, 182, 193, 0.4);
+}
+
+.member .info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.member h2 {
+  color: #ffb6c1;
+  margin-top: 0;
+}
+
+.member p {
+  line-height: 1.6;
+}
+
+/* =======================================================
+   GALLERY PAGE STYLES
+   ======================================================= */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid #ff66b2;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #ff66b2;
+}
+
+/* =======================================================
+   DISCOGRAPHY PAGE STYLES
+   ======================================================= */
+.album {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 900px;
+}
+
+.album-cover {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.album-info {
+  max-width: 600px;
+  color: #f6eee4;
+}
+
+.album-info h3 {
+  color: #ff66b2;
+}
+
+/* =======================================================
+   CONTACT PAGE STYLE
+   ======================================================= */
+.contact-form {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  color: #f6eee4;
+}
+
+.contact-form label {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #ff66b2;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background-color: #2a2a2a;
+  color: #f6eee4;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #ff66b2;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #ff99cc;
+}
+
+/* =======================================================
+   MEDIA QUERY FOR MOBILE SUPPORT
+   ======================================================= */
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 5px 0;
+  }
+
+  .hero-logo {
+    width: 80%;
+  }
+
+  section {
+    padding: 25px 15px;
+  }
+
+  .member {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .member img {
+    margin: 0 0 15px 0;
+    width: 80%;
+  }
+}
+
+/* =======================================================
+   RESPONSIVE DESIGN: TABLETS (768px–1024px)
+   ======================================================= */
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    padding: 1.5em;
+  }
+
+  nav a {
+    margin: 0 8px;
+    font-size: 1.1em;
+  }
+
+  .hero {
+    padding: 100px 40px;
+  }
+
+  .hero-logo {
+    width: 70%;
+  }
+
+  section {
+    padding: 50px 30px;
+  }
+
+  .member img {
+    width: 200px;
+  }
+
+  .member .info {
+    font-size: 1.05em;
+  }
+}
+
+/* =======================================================
+   Media Query for Desktop Viewport
+   ======================================================= */
+@media screen and (min-width: 1000px), print {
+  /* Desktop Viewport: Style rules for nav area */
+  nav li {
+    font-size: 1.5em;
+  }
+
+  nav li a {
+    padding: 0.5em 1.5em;
+  }
+
+  nav li a:hover {
+    color: #2a1f14;
+    background-color: #f6eee4;
+  }
+
+  /* Desktop Viewport: Style rules for main content */
+  #info ul {
+    margin-left: 5%;
+  }
+
+  #wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
+
+/* =======================================================
+   MEDIA QUERY FOR PRINT
+   ======================================================= */
+@media print {
+  body {
+    background-color: #fff;
+    color: #000;
+  }
+
+  header, nav, footer {
+    display: none;
+  }
+
+  section, .band-page, .album, .contact-form {
+    background-color: transparent;
+    box-shadow: none;
+    color: #000;
+  }
+
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+}
+
+}
+          
