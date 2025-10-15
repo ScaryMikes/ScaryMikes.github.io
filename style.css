@@ -13,7 +13,7 @@ body {
    HEADER AND NAVIGATION STYLE
    ======================================================= */
 header {
-  background-color: #111;
+  background-color: transparent;
   text-align: center;
   padding: 1em;
 }
@@ -44,10 +44,10 @@ body {
 
   /* Background Image */
   background-image: url("images/StarryBackground.jpg");
-  background-size: cover;        /* Makes image fill screen */
-  background-repeat: no-repeat;  /* Prevents tiling */
-  background-attachment: fixed;  /* Keeps image still while scrolling */
-  background-position: center;   /* Centers image */
+  background-size: cover;        
+  background-repeat: no-repeat;  
+  background-attachment: fixed; 
+  background-position: center;   
 }
 
 /* =======================================================
