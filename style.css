@@ -140,6 +140,20 @@ h2 {
   font-size: 1.1em;
 }
 
+.album-thumb {
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 2px solid #ff66b2;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.album-thumb:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #ff66b2;
+}
+
 /* =======================================================
    GALLERY PREVIEW ON HOMEPAGE
    ======================================================= */
@@ -339,6 +353,10 @@ footer {
     width: 80%;
   }
 
+   .album-thumb {
+    width: 130px;
+  }
+
   section {
     padding: 25px 15px;
   }
@@ -378,6 +396,10 @@ footer {
   section {
     padding: 50px 30px;
   }
+   
+   .album-thumb {
+    width: 150px;
+  }
 
   .member img {
     width: 200px;
@@ -414,6 +436,10 @@ footer {
   #wrapper {
     max-width: 1440px;
     margin: 0 auto;
+  }
+
+   .album-thumb {
+    width: 200px;
   }
 }
 
