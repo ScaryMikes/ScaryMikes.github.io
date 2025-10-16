@@ -243,16 +243,15 @@ footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 15px;
-  max-width: 1200px;
+  max-width: auto;
   margin: 20px auto;
   padding: 10px;
 }
 
 .gallery-grid img {
-  width: 100%;
+  width: auto;
   height: 250px;
   border-radius: 10px;
-  object-fit: cover;
   border: 2px solid #ff66b2;
   transition: transform 0.3s, box-shadow 0.3s;
 }
