@@ -249,13 +249,12 @@ footer {
 }
 
 .gallery-grid img {
-  width: auto;
-  height: 250px;
-  object-fit: contain;
-  background-color: transparent;
+  width: 100%;
+  height: auto;
   border-radius: 10px;
   border: 2px solid #ff66b2;
   transition: transform 0.3s, box-shadow 0.3s;
+  display: block;
 }
 
 .gallery-grid img:hover {
