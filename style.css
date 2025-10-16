@@ -371,6 +371,9 @@ footer {
     margin: 0 0 15px 0;
     width: 80%;
   }
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
 }
 
 /* =======================================================
@@ -409,13 +412,16 @@ footer {
   .member .info {
     font-size: 1.05em;
   }
+   .gallery-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
 }
 
 /* =======================================================
    Media Query for Desktop Viewport
    ======================================================= */
 @media screen and (min-width: 1000px), print {
-  /* Desktop Viewport: Style rules for nav area */
+ 
   nav li {
     font-size: 1.5em;
   }
