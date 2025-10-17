@@ -278,10 +278,11 @@ footer {
 }
 
 .album-cover {
-  width: 200px;
+  width: 250px;
   height: auto;
-  margin: 10px;
   border-radius: 10px;
+  border: 2px solid #ff66b2;
+  box-shadow: 0 0 10px rgba(255, 102, 178, 0.3);
 }
 
 .album-info {
@@ -292,6 +293,23 @@ footer {
 .album-info h3 {
   color: #ff66b2;
 }
+
+.album-info a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #ff66b2;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.album-info a:hover {
+  background-color: #ff3385;
+}
+
+
 
 /* =======================================================
    CONTACT PAGE STYLE
