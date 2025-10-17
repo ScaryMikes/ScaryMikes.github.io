@@ -1,6 +1,4 @@
-/* =======================================================
-   BASE STYLES
-   ======================================================= */
+/* BASE STYLES */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -9,9 +7,7 @@ body {
   line-height: 1.6;
 }
 
-/* =======================================================
-   HEADER AND NAVIGATION STYLE
-   ======================================================= */
+/* HEADER AND NAVIGATION STYLE */
 header {
   background-color: transparent;
   text-align: center;
@@ -33,9 +29,7 @@ nav a {
 nav a.active {
   text-decoration: underline;
 }
-/* ==============================================
-   GLOBAL BACKGROUND STYLE
-   ============================================== */
+/* GLOBAL BACKGROUND STYLE */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -50,9 +44,7 @@ body {
   background-position: center;   
 }
 
-/* =======================================================
-   HOMEPAGE AND BANNER STYLE
-   ======================================================= */
+/* HOMEPAGE AND BANNER STYLE */
 .hero {
   text-align: center;
   background-color: transparent;
@@ -94,9 +86,7 @@ body {
   background-color: #ffc5d0;
 }
 
-/* =======================================================
-   SECTION STYLES
-   ======================================================= */
+/* SECTION STYLES */
 section {
   padding: 40px 20px;
   max-width: 1000px;
@@ -109,9 +99,7 @@ h2 {
   margin-bottom: 20px;
 }
 
-/* =======================================================
-   BAND PREVIEW STYLE ON HOMEPAGE
-   ======================================================= */
+/* BAND PREVIEW STYLE ON HOMEPAGE */
 .member-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -126,9 +114,7 @@ h2 {
   box-shadow: 0 0 8px rgba(255, 182, 193, 0.5);
 }
 
-/* =======================================================
-   DISCOGRAPHY PREVIEW STYLE ON HOMEPAGE
-   ======================================================= */
+/* DISCOGRAPHY PREVIEW STYLE ON HOMEPAGE */
 .music-preview ul {
   list-style: none;
   padding: 0;
@@ -154,9 +140,7 @@ h2 {
   box-shadow: 0 0 10px #ff66b2;
 }
 
-/* =======================================================
-   GALLERY PREVIEW ON HOMEPAGE
-   ======================================================= */
+/*  GALLERY PREVIEW ON HOMEPAGE */
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -171,17 +155,13 @@ h2 {
   box-shadow: 0 0 8px rgba(255, 182, 193, 0.4);
 }
 
-/* =======================================================
-   CONTACT PREVIEW ON HOMEPAGE
-   ======================================================= */
+/* CONTACT PREVIEW ON HOMEPAGE */
 .contact-preview {
   text-align: center;
   font-size: 1.1em;
 }
 
-/* =======================================================
-   FOOTER STYLES
-   ======================================================= */
+/* FOOTER STYLES */
 .link {
   color: #ffb6c1;
   text-decoration: underline;
@@ -195,9 +175,7 @@ footer {
   color: #ffb6c1;
 }
 
-/* =======================================================
-   BAND PAGE STYLE
-   ======================================================= */
+/* BAND PAGE STYLE */
 .band-page {
   max-width: 1000px;
   margin: auto;
@@ -236,9 +214,7 @@ footer {
   line-height: 1.6;
 }
 
-/* =======================================================
-   GALLERY PAGE STYLES
-   ======================================================= */
+/* GALLERY PAGE STYLES */
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -262,9 +238,7 @@ footer {
   box-shadow: 0 0 10px #ff66b2;
 }
 
-/* =======================================================
-   DISCOGRAPHY PAGE STYLES
-   ======================================================= */
+/*  DISCOGRAPHY PAGE STYLES */
 .album {
   display: flex;
   flex-wrap: wrap;
@@ -311,9 +285,7 @@ footer {
 
 
 
-/* =======================================================
-   CONTACT PAGE STYLE
-   ======================================================= */
+/* CONTACT PAGE STYLE */
 .contact-form {
   max-width: 600px;
   margin: 20px auto;
@@ -359,9 +331,7 @@ footer {
   background-color: #ff99cc;
 }
 
-/* =============================
-   ABOUT PAGE STYLES
-   ============================= */
+/*  ABOUT PAGE STYLES */
 .about, .references {
   max-width: 900px;
   margin: 40px auto;
@@ -391,9 +361,7 @@ footer {
 }
 
 
-/* =======================================================
-   MEDIA QUERY FOR MOBILE SUPPORT
-   ======================================================= */
+/* MEDIA QUERY FOR MOBILE SUPPORT */
 @media (max-width: 600px) {
   nav a {
     display: block;
@@ -426,9 +394,7 @@ footer {
   }
 }
 
-/* =======================================================
-   RESPONSIVE DESIGN: TABLETS (768px–1024px)
-   ======================================================= */
+/* RESPONSIVE DESIGN: TABLETS (768px–1024px) */
 @media (min-width: 768px) and (max-width: 1024px) {
   header {
     padding: 1.5em;
@@ -467,9 +433,7 @@ footer {
   }
 }
 
-/* =======================================================
-   Media Query for Desktop Viewport
-   ======================================================= */
+/* Media Query for Desktop Viewport */
 @media screen and (min-width: 1000px), print {
  
   nav li {
@@ -500,9 +464,7 @@ footer {
   }
 }
 
-/* =======================================================
-   MEDIA QUERY FOR PRINT
-   ======================================================= */
+/* MEDIA QUERY FOR PRINT */
 @media print {
   body {
     background-color: #fff;
