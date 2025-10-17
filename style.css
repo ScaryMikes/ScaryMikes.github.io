@@ -359,6 +359,38 @@ footer {
   background-color: #ff99cc;
 }
 
+/* =============================
+   ABOUT PAGE STYLES
+   ============================= */
+.about, .references {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  border: 1px solid #ff66b2;
+}
+
+.about h2, .references h2 {
+  color: #ff66b2;
+  text-align: center;
+}
+
+.references ul {
+  list-style-type: square;
+  padding-left: 30px;
+}
+
+.references a {
+  color: #66b2ff;
+  text-decoration: none;
+}
+
+.references a:hover {
+  text-decoration: underline;
+}
+
+
 /* =======================================================
    MEDIA QUERY FOR MOBILE SUPPORT
    ======================================================= */
