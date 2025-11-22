@@ -55,7 +55,7 @@ body {
 /* HOMEPAGE AND BANNER STYLE */
 .hero {
   text-align: center;
-  background-color: transparent;
+  background-color: rgb(0, 0, 0);
   padding: 80px 20px;
 }
 
