@@ -95,7 +95,7 @@ nav a.active {
 .video-container {
   position: relative;
   width: 100%;
-  max-width: 900px;   /* you can change this */
+  max-width: 1800px;   /* you can change this */
   margin: 20px auto;
   aspect-ratio: 16/9;
 }
