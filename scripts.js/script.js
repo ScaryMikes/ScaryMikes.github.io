@@ -1,18 +1,19 @@
-const faders = document.querySelectorAll('.fade-on-scroll');
+let slideIndex = 1;
+showSlides(slideIndex);
 
-const appearOptions = {
-  threshold: 0.1,
-  rootMargin: "0px 0px -50px 0px"
-};
+function changeSlide(n) {
+  showSlides(slideIndex += n);
+}
 
-const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll) {
-  entries.forEach(entry => {
-    if (!entry.isIntersecting) return;
-    entry.target.classList.add('show');
-    appearOnScroll.unobserve(entry.target);
-  });
-}, appearOptions);
+function showSlides(n) {
+  let slides = document.getElementsByClassName("slide");
 
-faders.forEach(fader => {
-  appearOnScroll.observe(fader);
-});
+  if (n > slides.length) { slideIndex = 1; }
+  if (n < 1) { slideIndex = slides.length; }
+
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+
+  slides[slideIndex - 1].style.display = "block";
+}
