@@ -393,7 +393,7 @@ footer {
 
 
 /* =====================================
-   DISCOGRAPHY PAGE STYLES (CLEAN + FIXED)
+   DISCOGRAPHY PAGE STYLES 
    ===================================== */
 
 /* Page container */
@@ -549,7 +549,37 @@ nav a.active {
     width: 100%;
   }
 }
+/* Track tables */
+.track-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 8px;
+  overflow: hidden;
+}
 
+.track-table th {
+  background: #ffb6c1;
+  color: #222;
+  padding: 8px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.track-table td {
+  padding: 8px;
+  color: #ddd;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.track-table tr:last-child td {
+  border-bottom: none;
+}
+
+.track-table tr:hover td {
+  background: rgba(255, 182, 193, 0.15);
+}
 
 /*  GEAR PAGE STYLES */
 .gear-section {
