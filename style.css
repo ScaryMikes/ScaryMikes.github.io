@@ -41,7 +41,7 @@ nav a.active {
 .video-container {
   position: relative;
   width: 100%;
-  max-width: 1800px;   /* you can change this */
+  max-width: 1800px;  
   margin: 20px auto;
   aspect-ratio: 16/9;
 }
@@ -57,7 +57,7 @@ nav a.active {
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  color: #f2f2f2;
+  color: #000000;
   line-height: 1.6;
 
   /* Background Image */
