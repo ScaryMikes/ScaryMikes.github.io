@@ -71,7 +71,7 @@ body {
 /* HOMEPAGE AND BANNER STYLE */
 .hero {
   text-align: center;
-  background-color: #ffb6c1;;
+  background-color: transparent;
   padding: 80px 20px;
 }
 
