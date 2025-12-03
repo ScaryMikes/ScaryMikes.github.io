@@ -526,6 +526,19 @@ nav a.active {
   border-radius: 1px;
 }
 
+.track-table {
+  background-color: #000;    
+  color: #fff;                 
+  border-collapse: collapse;   
+}
+
+.track-table th,
+.track-table td {
+  border: 1px solid #444;      
+  padding: 8px;
+}
+
+
 /* =====================================
    Responsive Design
    ===================================== */
